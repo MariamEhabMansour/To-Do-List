@@ -1,6 +1,12 @@
 .App {
-  text-align: center;
+  
+  background-image:url("https://tailwindcss.com/_next/static/media/docs@tinypng.d9e4dcdc.png");
+        
+        background-size:cover;
+        background-repeat: no-repeat;
+        min-height: 90vh;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +41,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.taskDone{
+  text-decoration: line-through;
 }

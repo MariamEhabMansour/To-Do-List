@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.task{
+  background-color:rgba(192,202,209, 0.3);
+  margin: 30px;
+  margin:30px 70px 30px 70px;
+
+  border-radius: 15px;
+  padding: 20px;
+
+  cursor: pointer;
+  
+
+}
+
+.delbutton{
+  margin: 10px;
+  float: right;
+}
